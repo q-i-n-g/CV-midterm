@@ -3,10 +3,12 @@ from multiprocessing.dummy import freeze_support
 from utils.data_sort import data_sort
 from utils.set_seed import set_seed
 import json
+import os
 
 
 def main():
-    data_sort()
+    if not os.path.exists('./CUB_200_2011/images_sorted'):
+        data_sort()
     set_seed(42)   
     with open('./models/final_model/config.json', 'r') as f:
         config = json.load(f)
