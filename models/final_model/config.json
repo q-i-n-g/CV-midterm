@@ -6,12 +6,12 @@
         "transform_method":"new",
         "num_epoch":150,
         "dir":"./models/final_model",
-        "model_name":"resnet50_CUB",
+        "model_name":"inceptionv3_CUB",
         "train_set":"pretrain"
     },
     "test":{
-        "model_path":"./models/final_model/resnet50_CUB",
-        "model_name":"resnet50_CUB",
+        "model_path":"./models/final_model/inceptionv3_CUB",
+        "model_name":"inceptionv3_CUB",
         "transform_method":"new"
     }
   }
