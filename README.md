@@ -24,6 +24,8 @@ https://data.caltech.edu/records/65de6-vp158
 │   └───parts
 ```
 
+```
+
 ## 权重下载
 权重地址：
 
@@ -43,4 +45,15 @@ https://drive.google.com/drive/folders/1PGs9KaQn7n5e5E64yWaJqPYDClflHkne?usp=sha
 │           └───tensorboard_logs
 │                   events.out.tfevents.1716489396.8f289ae79cff.2000575.0
 ```
+
 ## 测试
+```
+python test.py
+```
+测试其他的模型修改test.py文件中的路径即可
+
+## 训练
+训练最终模型：
+```
+python main.py
+```
