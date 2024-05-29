@@ -27,11 +27,7 @@ https://data.caltech.edu/records/65de6-vp158
 
 
 ## 权重下载
-权重地址：
-
-https://drive.google.com/drive/folders/1PGs9KaQn7n5e5E64yWaJqPYDClflHkne?usp=sharing
-
-下载后放入root/model/final_model中，结构如下：
+最终模型放入root/model/final_model中，结构如下：
 ```
 ├───models
 │   └───final_model
