@@ -57,3 +57,4 @@ python test.py
 ```
 python main.py
 ```
+如果要训练其他模型或保存路径，可以修改final_model中的congfig文件，注意如果要对其他基础模型进行微调需要修改main函数中的net_train函数。
