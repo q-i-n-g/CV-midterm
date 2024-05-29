@@ -4,7 +4,7 @@
         "lr_fine":0.002,
         "batch_size":16,
         "transform_method":"new",
-        "num_epoch":150,
+        "num_epoch":80,
         "dir":"./models/final_model",
         "model_name":"inceptionv3_CUB",
         "train_set":"pretrain"
